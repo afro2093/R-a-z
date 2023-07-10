@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  #header {
+    background-color: #f1f1f1;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  #logo-container {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  #logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #search {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #search input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #button-login {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  #main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url('../image/marvel.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  #slogan {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #slider {
+    width: 80%;
+    max-width: 900px; /* Limiter la largeur du carrousel */
+    margin: 50px 0;
+    position: relative;
+  }
+  
+  .slider-image {
+    display: none; /* Masquer toutes les images par défaut */
+    width: 100%; /* Taille fixe pour les images */
+    height: 60vh; /* Hauteur fixe pour les images */
+    object-fit: cover; /* Ajustement de l'image pour remplir le conteneur */
+  }
+  
+  .slider-image.active {
+    display: block; /* Afficher l'image active */
+  }
+  
+  .slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .slider-arrow.prev {
+    left: 10px;
+  }
+  
+  .slider-arrow.next {
+    right: 10px;
+  }
+  
+  #footer {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+  }
+  
+  #footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #footer a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+  }
+  
+  .keyword {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  /* Media Query pour les écrans d'ordinateur */
+  @media (min-width: 1280px) {
+    #main {
+      height: calc(100vh - 70px);
+    }
+  }
+  
+  /* Media Query pour les téléphones en mode portrait */
+  @media (max-width: 480px) {
+    #main {
+      height: calc(100vh - 120px);
+      font-size: 24px;
+    }
+  
+    #slogan {
+      font-size: 24px;
+    }
+  
+    #slider {
+      width: 90%;
+    }
+  
+    .slider-image {
+      max-width: 100%;
+    }
+  
+    .slider-arrow {
+      width: 20px;
+      height: 20px;
+      font-size: 16px;
+    }
+  }
+  
