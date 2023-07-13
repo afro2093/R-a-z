@@ -30,11 +30,11 @@ document.querySelector('.slider-arrow.prev').addEventListener('click', stopAutoS
 document.querySelector('.slider-arrow.next').addEventListener('click', stopAutoSlide);
 
 function generateRandomPosition() {
-  var containerWidth = document.querySelector('.container').offsetWidth;
-  var containerHeight = document.querySelector('.container').offsetHeight;
+  var screenWidth = window.innerWidth;
+  var screenHeight = window.innerHeight;
 
-  var randomX = Math.floor(Math.random() * (containerWidth - 50));
-  var randomY = Math.floor(Math.random() * (containerHeight - 50));
+  var randomX = Math.floor(Math.random() * (screenWidth - 50));
+  var randomY = Math.floor(Math.random() * (screenHeight - 50));
 
   return { x: randomX, y: randomY };
 }
@@ -53,24 +53,6 @@ function moveCharacter(characterId) {
   if (position.y + 50 > containerHeight) {
     position.y = containerHeight - 50;
   }
-
-  character.style.left = position.x + 'px';
-  character.style.top = position.y + 'px';
-}
-
-function generateRandomPosition() {
-  var screenWidth = window.innerWidth;
-  var screenHeight = window.innerHeight;
-
-  var randomX = Math.floor(Math.random() * (screenWidth - 50));
-  var randomY = Math.floor(Math.random() * (screenHeight - 50));
-
-  return { x: randomX, y: randomY };
-}
-
-function moveCharacter(characterId) {
-  var character = document.getElementById(characterId);
-  var position = generateRandomPosition();
 
   character.style.left = position.x + 'px';
   character.style.top = position.y + 'px';
