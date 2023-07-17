@@ -1,0 +1,30 @@
+section{
+    font-family: 'VT323', monospace;
+    border: 2px double #F1895C;
+    background-color:  #F1895C;
+    border-radius: 8px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+   padding: 100px;
+}
+
+body{
+    background-color: #516079;
+}
+
+#button-login{
+    background-color: #2e3244;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+#loglog{
+    background-color: #2e3244;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+}
