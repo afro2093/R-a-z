@@ -1,8 +1,8 @@
 section{
     font-family: 'VT323', monospace;
-    border: 2px double #F1895C ;
+    border: 2px double #f26619 ;
     border-radius: 8px ;
-    background-color: #F1895C;
+    background-color: #f26619;
     width: 300px;
     height: 600px;
     margin: auto;
@@ -10,11 +10,11 @@ section{
 }
 
 body{
-    background-color: #516079;
+    background-color: #f1f1f1;
 }
 
 #inscription{
-    background-color: #2e3244;
+    background-color: #f6b12d;
     color: white;
     padding: 10px 20px;
     border: none;

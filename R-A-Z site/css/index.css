@@ -16,7 +16,7 @@ html, body {
 }
 
 #header {
-  background-color: #f1f1f1;
+  background-color: #f26619;
   height: 50px;
   display: flex;
   align-items: center;
@@ -56,7 +56,7 @@ html, body {
 }
 
 #button-login {
-  background-color: #f1895c;
+  background-color: #f6b12d;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -65,7 +65,7 @@ html, body {
 }
 
 #button-login1 {
-  background-color: #f1895c;
+  background-color: #f6b12d;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -80,13 +80,14 @@ html, body {
   align-items: center;
   justify-content: center;
   color: white;
-  background: #2e3244 ;
+  background: #f1f1f1 ;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #slogan {
+  color: #2f4558;
   font-size: 36px;
   margin-bottom: 20px;
 }
@@ -133,7 +134,7 @@ html, body {
 }
 
 #footer {
-  background-color: #333;
+  background-color: #2f4558;
   padding: 20px;
   color: white;
 }
