@@ -1,0 +1,78 @@
+header{
+  background-color: #F1895C;
+  text-align-last: center;
+  padding-top: 12px;
+  font-family: 'VT323', monospace
+
+}
+footer{
+  background-color:#2F4558;
+  color: #F1895C;
+  font-family: 'VT323', monospace 
+  
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+header a {
+
+  color:#2F4558 !important;
+
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: #F1895C;
+}
+
+.topnav a.active {
+  background-color: #F1895C;
+  color: black;
+}
+
+.topnav input[type="text"] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  
+}
+
+.topnav input[type="text"] {
+  float: left;
+  display: block;
+  text-align: left;
+  width: 100%;
+  margin: 0;
+  padding: 14px;
+}
+.topnav input[type="text"] {
+  border: 1px solid white;
+  
+}
+
+h1 {
+  text-align: center;
+  font-family: 'VT323', monospace
+}
+
+.center{
+  text-align: center;
+}
+
+body{
+  margin: 0;
+}
