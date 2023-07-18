@@ -1,0 +1,49 @@
+
+  header{
+    background-color: #ffd17d;
+    font-family: https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto&display=swap;
+    https://fonts.gstatic.com/;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal ;
+    color: black;
+    text-align: justify;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+.search-bar{
+  justify-items: right;
+}
+
+  body {
+    background-color: rgb(255, 255, 255);
+    background-size: 100% 100%;
+
+    font-family: https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto&display=swap;
+    https://fonts.gstatic.com/;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal ;
+    color: black;
+    text-align: justify;
+    margin: 20px;
+    padding: 20px;
+
+  }
+  
+p{
+justify: right;
+}
+
+
+.class {
+  opacity: 0.5;
+}
+
+
+
+
+  footer{
+
+  }
