@@ -87,7 +87,8 @@ html, body {
 }
 
 #slogan {
-  color: #2f4558;
+  font-family: 'VT323', monospace
+  color: #335f8a;
   font-size: 36px;
   margin-bottom: 20px;
 }
