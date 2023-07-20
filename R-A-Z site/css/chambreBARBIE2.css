@@ -1,0 +1,83 @@
+
+header, body, #conteneur, #options, p, h1, h2, h3, h4, footer {
+  font-family: 'VT323', monospace;
+}
+
+
+header{
+    background-color: #F26619;
+    width: auto;
+    height: 150px;
+  }
+    
+  
+  .logo{
+    width:"80px" ;
+    height:"80px";
+    opacity:"1";
+  }
+  
+  .logo, #search-bar{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+   /* main, #photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+  } */
+  
+  #photo{
+    opacity: 1;
+    padding-left: 50px;
+  }
+  
+  body {
+    background-color: #C5C6C6;
+    background-size: 100% 100%;
+    font-family: 'VT323', monospace;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal ;
+    text-align: justify;
+    margin: 0px;
+    padding: 0px;
+  }
+    
+  .conteneur{
+    display: flex;
+    padding: 20px;
+  }
+  
+    
+  .formule{
+    padding: 20px;
+  }
+  
+  
+  .options{
+    padding: 20px;
+  }
+  
+  
+  .options, #option1, #option2, p, .formule, #photo {
+    display:flex;
+    flex-direction: row;
+  }
+  
+  p{
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  
+  footer{
+  background-color: #2E3244 ;
+  height: 150px;
+  align-content: space-around;
+  }
+  
+  
+  
