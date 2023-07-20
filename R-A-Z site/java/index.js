@@ -64,4 +64,4 @@ setInterval(function() {
   moveCharacter('character3');
   moveCharacter('character4');
   moveCharacter('character5');
-}, 2000); // Déplace les personnages toutes les 2 secondes (ajustez selon vos besoins)
+}, 10000); // Déplace les personnages toutes les 2 secondes (ajustez selon vos besoins)

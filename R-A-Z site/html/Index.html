@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>R-A-Z - Accueil</title>
   <link rel="stylesheet" type="text/css" href="../css/index.css">
 </head>
+
 <body>
   <div class="container">
-    <div id="header">
-      <div id="logo-container">
-        <div id="logo"><a href="Index.html" target="_blank"><img src="../image/Capture2.PNG" alt="R-A-Z"></a></div>
+    <header class="topnav">
+      <div>
+        <a href="#" href="#"><i class="logo"></i>R@z</a>
       </div>
-      <div id="search">
-        <input type="text" placeholder="Recherche">
+      <div id="search"><input type="input" placeholder="Recherche">
       </div>
+
       <div id="button-container">
         <button id="button-login">
           <a href="connexion.html" target="_blank">Connexion</a>
@@ -21,38 +23,37 @@
           <a href="inscription.html" target="_blank">Inscription</a>
         </button>
       </div>
-      
-    </div>
+    </header>
 
-    <div id="main">
-      <div id="slogan">Bienvenue sur R-A-Z</div>
-      <div id="slider">
-        <!-- Ajoutez ici votre carrousel avec les images -->
-        <a href="produit.html" target="_blank"><img class="slider-image active" src="../image/bat.jpg" alt="Chambre 1"> </a>
-        <a href="#" target="_blank"><img class="slider-image" src="../image/capsule.jpg" alt="Chambre 2"></a>
-        <a href="#" target="_blank"><img class="slider-image" src="../image/OIP.jpg" alt="Chambre 3"></a>
-        <div class="slider-arrow prev" onclick="changeSlide(-1); stopAutoSlide();">&#10094;</div>
-        <div class="slider-arrow next" onclick="changeSlide(1); stopAutoSlide();">&#10095;</div>
-      </div>
-    </div>
+  </div>
 
-    <div id="character-container">
-      <div id="character1" class="character"><img src="" alt="thor"></div>
-      <div id="character2" class="character"></div>
-      <div id="character3" class="character"></div>
-      <div id="character4" class="character"></div>
-      <div id="character5" class="character"></div>
+  <div id="main">
+    <div id="slogan">Bienvenue chez Room @>Z</div>
+    <div id="slider">
+      <!-- Ajoutez ici votre carrousel avec les images -->
+      <a href="produit.html" target="_blank"><img class="slider-image active" src="../image/bat.jpg" alt="Chambre 1">
+      </a>
+      <a href="#" target="_blank"><img class="slider-image" src="../image/capsule.jpg" alt="Chambre 2"></a>
+      <a href="#" target="_blank"><img class="slider-image" src="../image/OIP.jpg" alt="Chambre 3"></a>
+      <div class="slider-arrow prev" onclick="changeSlide(-1); stopAutoSlide();">&#10094;</div>
+      <div class="slider-arrow next" onclick="changeSlide(1); stopAutoSlide();">&#10095;</div>
     </div>
+  </div>
 
-    <div id="footer">
-      <div id="footer-content">
-        <a href="FAQ.html" target="_blank">FAQ</a>
-        <a href="#" target="_blank">Présentation du site</a>
-        <a href="https://twitter.com/" target="_blank">Twitter</a>
-        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-      </div>
+  
+
+
+  <footer class="topnav">
+    <div class="navbar-brand">
+      <a type="align-text-top">FAQS</a>
+      <a type="align-text-top">CGU</a>
+      <a type="align-text-top">CONTACT</a>
+      <a type="alt">RESEAUX</a>
+      <a type="alt">A PROPOS</a>
     </div>
+  </footer>
 
-    <script src="../java/index.js"></script>
+  <script src="../java/index.js"></script>
 </body>
+
 </html>
