@@ -1,93 +1,90 @@
 
-/* header, body, #conteneur, #options, p, h1, h2, h3, h4, footer {
+header, body, #conteneur, #options, p, h1, h2, h3, h4, footer {
   font-family: 'VT323', monospace;
-} */
+}
 
 
 header{
-  background-color: #F26619;
-  width: auto;
-  height: 150px;
-  font-family: "Roboto";
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal ;
-  margin: 0px;
-  padding: 0px;
-}
+    background-color: #F26619;
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 10px;
+  }
+    
   
-
-/* .logo{
-  width:"200px" ;
-  height:"200px";
-  opacity:"1";
-} */
-
-/* .search-bar{
-  margin-left: 1200px;
-} */
-
-/* main, #photo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-} */
-
-#photo{
-  opacity: 1;
-  padding-left: 50px;
-}
-
-body {
-  background-color: #C5C6C6;
-  background-size: 100% 100%;
-  font-family: 'VT323', monospace;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal ;
-  color: black;
-  text-align: justify;
-  margin: 0px;
-  padding: 0px;
-}
+  .logo{
+    width:"80px" ;
+    height:"80px";
+    opacity:"1";
+  }
   
-#conteneur{
-  background-color: #ffffff;
-}
+  .logo, #search-bar{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+   main {
+    padding: 10px;
+  }
+  
+  #photo{
+    opacity: 1;
+    padding-left: 50px;
+  }
+  
+  body {
+    background-color: #C5C6C6;
+    background-size: 100% 100%;
+    font-family: 'VT323', monospace;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal ;
+    text-align: justify;
+    margin: 0px;
+    padding: 0px;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+  }
+    
+  .flex{
+    display: flex;
+  }
 
-.class{
-  display: flex;
-}
+  td{
+    text-align: center;
+  }
+  
+    
+  .formule{
+    padding: 20px;
+    /* margin: 20px; */
+  }
+  
+  
+  .options{
+    margin-bottom: 0px;
+    /* justify-content: space-around; */
+  }
 
-#formule{
-  background-color: #C5C6C6;
-  padding: 50px;
-}
-
-
-#options{
-  background-color: #ffffff;
-  padding: 80px;
-}
-
-/* #formule, #options{
- display:flex;
-} */
-
-#option1, #option2{
-  display:flex;
-}
-
-p{
-  background-color: #ffffff;
-  padding: 10px;
-}
-
-
-footer{
-background-color: #2E3244 ;
-height: 150px;
-}
-
-
+  .margin-y-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  
+  p{
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  
+  footer{
+  background-color: #2E3244 ;
+  height: 100px;
+  }
+  
+  
+  
