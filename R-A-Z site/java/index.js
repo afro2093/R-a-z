@@ -58,10 +58,10 @@ function moveCharacter(characterId) {
   character.style.top = position.y + 'px';
 }
 
-setInterval(function() {
-  moveCharacter('character1');
-  moveCharacter('character2');
-  moveCharacter('character3');
-  moveCharacter('character4');
-  moveCharacter('character5');
-}, 2000); // Déplace les personnages toutes les 2 secondes (ajustez selon vos besoins)
+// setInterval(function() {
+//   moveCharacter('character1');
+//   moveCharacter('character2');
+//   moveCharacter('character3');
+//   moveCharacter('character4');
+//   moveCharacter('character5');
+// }, 2000); // Déplace les personnages toutes les 2 secondes (ajustez selon vos besoins)
