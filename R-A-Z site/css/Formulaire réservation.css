@@ -66,7 +66,7 @@ header a {
 
 h1 {
   text-align: center;
-  font-family: 'VT323', monospace
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .center{
@@ -76,3 +76,4 @@ h1 {
 body{
   margin: 0;
 }
+select option:hover{background-color:yellow !important;}
