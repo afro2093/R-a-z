@@ -1,0 +1,93 @@
+header, body, #conteneur, #options, p, h1, h2, h3, h4, footer {
+    font-family: 'VT323', monospace;
+  }
+  
+  
+  header{
+      background-color: #F26619;
+      width: auto;
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding : 10px;
+    }
+      
+    
+    .logo{
+      width:"80px" ;
+      height:"80px";
+      opacity:"1";
+    }
+    
+    .logo, #search-bar{
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    
+    main {
+      /* padding: 10px; */
+      background-color: #335F8A;
+      padding: 70px;
+    }
+    
+    #photo{
+      opacity: 1;
+    }
+    
+    body {
+      background-size: 100% 100%;
+      font-family: 'VT323', monospace;
+      font-size: 15px;
+      font-weight: normal;
+      font-style: normal ;
+      /* margin: 50px; */
+    }
+      
+    .flex{
+      display: flex;
+    }
+  
+    td{
+      text-align: center;
+      /* justify-content: space-evenly ; */
+    }
+    
+  
+    .margin-y-20{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 1250px;
+    }
+    
+    
+    p{
+      /* padding: 0px; */
+      /* margin: 10px; */
+      background-color: rgb(240, 240, 240);
+    }
+    
+    
+    footer{
+    background-color: #2F4558 ;
+    height: 100px;
+    }
+    
+    .card mb-3, .options, table {
+      /* justify-content: ; */
+      display: flex;
+      /* border-radius: 10px; */
+      /* justify-items: center; */
+      /* margin: 20px; */
+    }
+  
+    #dragonBall, #salleDuTemps{
+      /* margin: 10px ; */
+      padding: 20px ;
+    }
+   
+    table{
+      border-collapse: unset !important;
+      border-spacing: 10px !important;
+    }
+   

@@ -87,3 +87,7 @@ header{
     padding: 20px ;
   }
  
+  table{
+    border-collapse: unset !important;
+    border-spacing: 10px !important;
+  }

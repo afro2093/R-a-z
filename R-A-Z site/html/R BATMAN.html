@@ -1,78 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto&display=swap; -->
     <link rel="stylesheet" href="../css/chambreBATMAN.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 
-
 <body>
-
     <header>
-
-        <div class="header">
-            <div>
-                <img src="logo ex.jpg" alt="Logo" class="logo" title="logo R A à Z">
-            </div>
-
-            <div class="search-bar">
-                <input type="text" placeholder="Rechercher...">
-            </div>
-
+        <div>
+            <img src="/image/logo.jpg" alt="Logo" class="logo" title="logo R A à Z" width="90px" height="90px">
         </div>
 
+        <div id="search-bar">
+            <input type="input" placeholder="Rechercher...">
+        </div>
     </header>
 
-<main>
-    <!-- Page boutique : formule Batman -->
+    <main>
 
-    <section id="container"> 
+
         
-            <article1> 
-                <h1>Formule Batcave.</h1>
-            <!-- image produit : Batcave -->
-                    <img src="image/bat.jpg" alt="photo batcave">
-            </article1>
+  <div class="card mb-3" style="max-width: 1470px; ">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="../image/chambreBatman.jpg" class="img-fluid rounded-start" alt="..." width="1500px" height="1000" >
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h3 class="card-title">Formule Batman</h3>
+          <p class="card-text">Envie d'une virée insolite ? Faites votre choix parmi ces deux options :</p>
+            <!-- <h4 class="options">Options</h4> -->
+        <table>
+            <tr>
+                <td>
+                    <label for="option1" class="flex">
+                        <h5>Option 1:</h5>
+                    </label>
+                </td>
+                <td>
+                    <label for="option2" class="flex">
+                        <h5>Option 2:</h5>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://www.youtube.com/watch?v=67h06JkUbp4" target="_blank">
+                        <img src="../image/Batmobile.jpg" id="Batmobile" height="150px" width="150px" title="Conduite de la Batmobile">
+                    </a>
+
+                </td>
+                <td>
+                    <a href="https://www.youtube.com/watch?v=QysaxLeOcnQ"
+                        target="_blank">
+                        <img src="../image/Alfred.png" id="Alfred" height="150px" width="150px" title="Faites vous servir par Alfred">
+                    </a>
+                </td>
+            </tr>
+        </table>
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+        
+ 
+        <a href="Formulaire réservation.html">
+            <input type="button" value="Réserver" class="margin-y-20" >
+        </a>
+        <br>
+        <br>
 
 
-            <article2>
-            <!-- description produit -->
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam ipsam ut ducimus inventore. Ipsum dolorem dicta neque veniam deleniti aut impedit, facilis officia obcaecati architecto magnam, similique perferendis molestiae reiciendis.</p>
-                            <ol>
-                                <li> Option 1 <input checbox></li>
-                                <li> Option 2 <input checbox></li>
-                            </ol>
-            
-                        </article2>
-                            
+    </main>
 
-            <article3>
-            <!-- choix des options -->
-                    <div>
-                            <a href="https://www.youtube.com/watch?v=67h06JkUbp4"
-                            target="_blank"> Vidéo circuit en batmobile.</a>
-                    </div>
-                    
-                    
-                    <div>
-                            <a href=""
-                            target="_blank"> Photo batcave.</a>
-                    </div>
+    <footer class="topnav">
+        <div class="navbar-brand">
+            <a type="align-text-top">FAQS</a>
+            <a type="align-text-top">CGU</a>
+            <a type="align-text-top">CONTACT</a>
+            <a type="alt">RESEAUX</a>
+            <a type="alt">A PROPOS</a>
+        </div>
+    </footer>
 
-                    <a href="../index.html">Accueil</a>
-
-            </article3>
-
-    </section>
-
-
-
-</main>
-
-
-<footer></footer>
 
 </body>
+
 </html>
+
