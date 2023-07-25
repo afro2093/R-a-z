@@ -1,49 +1,90 @@
 
-  header{
-    background-color: #ffd17d;
-    font-family: https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto&display=swap;
-    https://fonts.gstatic.com/;
+header, body, #conteneur, #options, p, h1, h2, h3, h4, footer {
+  font-family: 'VT323', monospace;
+}
+
+
+header{
+    background-color: #F26619;
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 10px;
+  }
+    
+  
+  .logo{
+    width:"80px" ;
+    height:"80px";
+    opacity:"1";
+  }
+  
+  .logo, #search-bar{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+   main {
+    padding: 10px;
+  }
+  
+  #photo{
+    opacity: 1;
+    padding-left: 50px;
+  }
+  
+  body {
+    background-color: #C5C6C6;
+    background-size: 100% 100%;
+    font-family: 'VT323', monospace;
     font-size: 15px;
     font-weight: normal;
     font-style: normal ;
-    color: black;
     text-align: justify;
     margin: 0px;
     padding: 0px;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+  }
+    
+  .flex{
+    display: flex;
+  }
+
+  td{
+    text-align: center;
   }
   
-.search-bar{
-  justify-items: right;
-}
-
-  body {
-    background-color: rgb(255, 255, 255);
-    background-size: 100% 100%;
-
-    font-family: https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto&display=swap;
-    https://fonts.gstatic.com/;
-    font-size: 15px;
-    font-weight: normal;
-    font-style: normal ;
-    color: black;
-    text-align: justify;
-    margin: 20px;
+    
+  .formule{
     padding: 20px;
-
+    /* margin: 20px; */
   }
   
-p{
-justify: right;
-}
-
-
-.class {
-  opacity: 0.5;
-}
-
-
-
-
-  footer{
-
+  
+  .options{
+    margin-bottom: 0px;
+    /* justify-content: space-around; */
   }
+
+  .margin-y-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  
+  p{
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  
+  footer{
+  background-color: #2E3244 ;
+  height: 100px;
+  }
+  
+  
+  
