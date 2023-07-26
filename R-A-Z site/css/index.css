@@ -1,10 +1,11 @@
 header{
   background-color: #efa031;
   text-align-last: center;
-  padding: 12px;
-  font-family: 'VT323', monospace;
+  padding-top: 12px;
+ 
   display: flex;
   align-items: center;
+  justify-content:space-between;
 }
 header div{
   width: 33%;
