@@ -10,8 +10,12 @@ header{
 
 footer{
   background-color:#2F4558;
-  color: #efa031;
+  color: #efa031 !important;
   font-family: 'VT323', monospace  
+}
+
+footer a{
+  color: #efa031 !important;
 }
 
 .topnav {
