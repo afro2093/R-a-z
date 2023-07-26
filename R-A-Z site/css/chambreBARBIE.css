@@ -92,21 +92,18 @@ header{
     /* justify-content: space-evenly ; */
   }
   
-
   .margin-y-20{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 1250px;
   }
-  
-  
+    
   p{
     /* padding: 0px; */
     /* margin: 10px; */
     background-color: rgb(240, 240, 240);
   }
-  
-  
+    
   footer{
   background-color: #2F4558 ;
   }
