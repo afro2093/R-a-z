@@ -11,6 +11,10 @@ header div{
   width: 33%;
 }
 
+#gauche{
+  text-align-last: left;
+}
+
 .logo{
   height: 80px;
 }
@@ -228,8 +232,4 @@ main {
 body{
   background: #f1f1f1 ;
   margin: 0;
-}
-
-.logo{
-  height: 80px;
 }
