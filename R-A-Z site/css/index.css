@@ -196,8 +196,8 @@ main {
 #footer a {
   color: #efa031;
   text-decoration: none;
-  
-}
+
+}  
   @media (min-width: 1280px) {
     #main {
       height: calc(100vh - 70px);

@@ -12,8 +12,35 @@ header, body, #conteneur, #options, p, h1, h2, h3, h4, footer {
       align-items: center;
       padding : 10px;
     }
+    footer{
+      background-color:#2F4558;
+      color: #efa031;
+      font-family: 'VT323', monospace;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
       
+    } 
+    #footer a {
+      float: left;
+      display: block;
     
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+#footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#footer a {
+  color: #efa031;
+  text-decoration: none;
+
+}  
     .logo{
       width:"80px" ;
       height:"80px";
@@ -70,7 +97,6 @@ header, body, #conteneur, #options, p, h1, h2, h3, h4, footer {
     
     footer{
     background-color: #2F4558 ;
-    height: 100px;
     }
     
     .card mb-3, .options, table {
