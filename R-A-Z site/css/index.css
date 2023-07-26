@@ -189,15 +189,13 @@ main {
   text-decoration: none;
   
 }
-  
-  /* Media Query pour les écrans d'ordinateur */
   @media (min-width: 1280px) {
     #main {
       height: calc(100vh - 70px);
     }
   }
   
-  /* Media Query pour les téléphones en mode portrait */
+  
   @media (max-width: 480px) {
     #main {
       height: calc(100vh - 120px);
