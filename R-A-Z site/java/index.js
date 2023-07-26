@@ -58,6 +58,15 @@ function moveCharacter(characterId) {
   character.style.top = position.y + 'px';
 }
 
+<<<<<<< HEAD
+// setInterval(function() {
+//   moveCharacter('character1');
+//   moveCharacter('character2');
+//   moveCharacter('character3');
+//   moveCharacter('character4');
+//   moveCharacter('character5');
+// }, 2000); // Déplace les personnages toutes les 2 secondes (ajustez selon vos besoins)
+=======
 setInterval(function() {
   moveCharacter('character1');
   moveCharacter('character2');
@@ -70,3 +79,4 @@ setInterval(function() {
 }, 2000); // Déplace les personnages toutes les 2 secondes (ajustez selon vos besoins)
 
 >>>>>>> b74585b38141aa4ebab77f4050a216d229ab42db
+>>>>>>> 0e040f9b798ace32107751a2f5b7a362cb41b4bf
