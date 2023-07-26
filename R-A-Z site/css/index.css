@@ -91,19 +91,12 @@ header a {
   
 }
 
-<<<<<<< HEAD
-#button-connect {
-  color: #2F4558;
-  padding: 2px ;
-  margin-right: 10px;
-=======
 #button-login1 {
   background-color: #f6b12d;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
->>>>>>> b74585b38141aa4ebab77f4050a216d229ab42db
   
 }
 
@@ -170,8 +163,6 @@ header a {
   right: 10px;
 }
 
-<<<<<<< HEAD
-=======
 #footer {
   background-color: #2f4558;  
   padding: 20px;
@@ -191,7 +182,6 @@ font-family: 'VT323', monospace
   text-decoration: none;
   margin: 5px;
 }
->>>>>>> b74585b38141aa4ebab77f4050a216d229ab42db
 
 .character {
   position: absolute;
