@@ -1,17 +1,18 @@
 header{
-  background-color: #F1895C;
+  background-color: #efa031;
   text-align-last: center;
-  padding: 12px;
+  padding-top: 12px;
   font-family: 'VT323', monospace;
   display: flex;
   align-items: center;
+  justify-content:space-between;
 }
 header div{
   width: 33%;
 }
 footer{
   background-color:#2F4558;
-  color: #F1895C;
+  color: #efa031;
   font-family: 'VT323', monospace 
   
 }
@@ -32,6 +33,10 @@ header a {
 
   color:#2F4558 !important;
 
+}
+
+.logo{
+  height:80px;
 }
 
 .topnav a:hover {
@@ -91,19 +96,12 @@ header a {
   
 }
 
-<<<<<<< HEAD
-#button-connect {
-  color: #2F4558;
-  padding: 2px ;
-  margin-right: 10px;
-=======
 #button-login1 {
   background-color: #f6b12d;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
->>>>>>> b74585b38141aa4ebab77f4050a216d229ab42db
   
 }
 
@@ -170,15 +168,13 @@ header a {
   right: 10px;
 }
 
-<<<<<<< HEAD
-=======
 #footer {
   background-color: #2f4558;  
   padding: 20px;
   color: #ffffff;
 font-family: 'VT323', monospace
 }
- 
+
 
 #footer-content {
   display: flex;
@@ -191,7 +187,6 @@ font-family: 'VT323', monospace
   text-decoration: none;
   margin: 5px;
 }
->>>>>>> b74585b38141aa4ebab77f4050a216d229ab42db
 
 .character {
   position: absolute;
