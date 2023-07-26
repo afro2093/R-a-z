@@ -70,7 +70,6 @@ header, body, #conteneur, #options, p, h1, h2, h3, h4, footer {
     
     footer{
     background-color: #2F4558 ;
-    height: 100px;
     }
     
     .card mb-3, .options, table {
