@@ -6,15 +6,12 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-
 }
 
 footer{
   background-color:#2F4558;
   color: #efa031;
-  font-family: 'VT323', monospace 
-  
+  font-family: 'VT323', monospace  
 }
 
 .topnav {
@@ -30,11 +27,11 @@ footer{
   text-decoration: none;
   font-size: 17px;
 }
+
 header a {
-
   color:#2F4558 !important;
-
 }
+
 .logo{
   height: 80px;
 }
@@ -42,7 +39,6 @@ header a {
 .invisible{
   visibility: hidden;
 }
-
 
 .topnav a:hover {
   background-color: white;
@@ -61,7 +57,6 @@ header a {
   margin-top: 8px;
   margin-right: 16px;
   font-size: 17px;
-  
 }
 
 .topnav input[type="text"] {
@@ -72,9 +67,9 @@ header a {
   margin: 0;
   padding: 14px;
 }
+
 .topnav input[type="text"] {
-  border: 1px solid white;
-  
+  border: 1px solid white; 
 }
 
 h1 {
