@@ -4,7 +4,7 @@ header, body, #conteneur, #options, p, h1, h2, h3, h4, footer {
   
   
   header{
-      background-color: #F26619;
+      background-color: #EFA031;
       width: auto;
       height: 100px;
       display: flex;
@@ -27,7 +27,7 @@ header, body, #conteneur, #options, p, h1, h2, h3, h4, footer {
     
     main {
       /* padding: 10px; */
-      background-color: #335F8A;
+      background-color: #dfdfdf;
       padding: 70px;
     }
     
