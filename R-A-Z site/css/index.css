@@ -10,6 +10,11 @@ header{
 header div{
   width: 33%;
 }
+
+.logo{
+  height: 80px;
+}
+
 footer{
   background-color:#2F4558;
   color: #efa031;
