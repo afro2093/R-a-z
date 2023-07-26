@@ -10,9 +10,18 @@ header{
 header div{
   width: 33%;
 }
+
+#gauche{
+  text-align-last: left;
+}
+
+.logo{
+  height: 80px;
+}
+
 footer{
   background-color:#2F4558;
-  color: #F1895C;
+  color: #efa031;
   font-family: 'VT323', monospace;
   position: fixed;
   bottom: 0;
@@ -42,11 +51,11 @@ margin-right:10px ;
 
 #footer a:hover {
   background-color: white;
-  color: #F1895C;
+  color: #efa031;
 }
 
 .topnav a.active {
-  background-color: #F1895C;
+  background-color: #efa031;
   color: black;
 }
 
@@ -189,7 +198,6 @@ main {
   text-decoration: none;
   
 }
-
   @media (min-width: 1280px) {
     #main {
       height: calc(100vh - 70px);
