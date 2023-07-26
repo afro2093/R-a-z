@@ -12,14 +12,17 @@ header div{
 footer{
   background-color:#2F4558;
   color: #F1895C;
-  font-family: 'VT323', monospace 
+  font-family: 'VT323', monospace;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   
 }
 .topnav {
   overflow: hidden;
 }
 
-.topnav a {
+#footer a {
   float: left;
   display: block;
 
@@ -29,12 +32,14 @@ footer{
   font-size: 17px;
 }
 header a {
+margin-left:10px ;
+margin-right:10px ;
 
   color:#2F4558 !important;
 
 }
 
-.topnav a:hover {
+#footer a:hover {
   background-color: white;
   color: #F1895C;
 }
@@ -91,29 +96,24 @@ header a {
   
 }
 
-<<<<<<< HEAD
-#button-connect {
-  color: #2F4558;
-  padding: 2px ;
-  margin-right: 10px;
-=======
 #button-login1 {
   background-color: #f6b12d;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
->>>>>>> b74585b38141aa4ebab77f4050a216d229ab42db
-  
+}
+#button-login {
+  /* background-color: #f6b12d; */
+  /* color: white; */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
 }
 
-#main {
+main {
   
   color: white;
-  background: #f1f1f1 ;
-  background-size:cover ;
-  background-position:center ;
-  background-repeat: no-repeat;
   
 }
 
@@ -170,15 +170,12 @@ header a {
   right: 10px;
 }
 
-<<<<<<< HEAD
-=======
 #footer {
   background-color: #2f4558;  
-  padding: 20px;
   color: #ffffff;
-font-family: 'VT323', monospace
+  font-family: 'VT323', monospace
 }
- 
+
 
 #footer-content {
   display: flex;
@@ -191,52 +188,52 @@ font-family: 'VT323', monospace
   text-decoration: none;
   
 }
->>>>>>> b74585b38141aa4ebab77f4050a216d229ab42db
 
 /* .character {
   position: absolute;
   width: 50px;
   height: 50px;
   /* Autres styles pour les personnages */
-} */
-
-/* #character-container {
-  position: relative;
-  flex-grow: 1;
-} */
-
-/* Media Query pour les écrans d'ordinateur */
-@media (min-width: 1280px) {
-  #main {
-    height: calc(100vh - 70px);
+  /* }  */
+  
+  /* #character-container {
+    position: relative;
+    flex-grow: 1;
+  } */
+  
+  /* Media Query pour les écrans d'ordinateur */
+  @media (min-width: 1280px) {
+    #main {
+      height: calc(100vh - 70px);
+    }
   }
-}
-
-/* Media Query pour les téléphones en mode portrait */
-@media (max-width: 480px) {
-  #main {
-    height: calc(100vh - 120px);
-    font-size: 24px;
-  }
-
-  #slogan {
-    font-size: 24px;
-  }
-
-  #slider {
-    width: 90%;
-  }
-
-  .slider-image {
-    max-width: 100%;
-  }
-
-  .slider-arrow {
+  
+  /* Media Query pour les téléphones en mode portrait */
+  @media (max-width: 480px) {
+    #main {
+      height: calc(100vh - 120px);
+      font-size: 24px;
+    }
+    
+    #slogan {
+      font-size: 24px;
+    }
+    
+    #slider {
+      width: 90%;
+    }
+    
+    .slider-image {
+      max-width: 100%;
+    }
+    
+    .slider-arrow {
     width: 20px;
     height: 20px;
     font-size: 16px;
   }
 }
 body{
+  background: #f1f1f1 ;
   margin: 0;
 }
