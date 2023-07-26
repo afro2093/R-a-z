@@ -1,13 +1,18 @@
 header{
-  background-color: #F1895C;
+  background-color: #efa031;
   text-align-last: center;
   padding-top: 12px;
-  font-family: 'VT323', monospace
+  font-family: 'VT323', monospace;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
 
 }
+
 footer{
   background-color:#2F4558;
-  color: #F1895C;
+  color: #efa031;
   font-family: 'VT323', monospace 
   
 }
@@ -30,6 +35,14 @@ header a {
   color:#2F4558 !important;
 
 }
+.logo{
+  height: 80px;
+}
+
+.invisible{
+  visibility: hidden;
+}
+
 
 .topnav a:hover {
   background-color: white;
@@ -74,6 +87,5 @@ h1 {
 }
 
 body{
-  margin: 0;
+  margin:0%;
 }
-select option:hover{background-color:yellow !important;}
