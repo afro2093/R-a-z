@@ -1,0 +1,68 @@
+.slide{
+    padding-top: 150px;
+    padding-bottom: 80px;
+    display: flex;
+    overflow:scroll;
+    scroll-behavior: smooth;
+}
+
+.ensemble-fleche{
+    width: 1000px;
+    min-width: 1000px;
+    display: flex;
+    margin: auto;
+}
+
+.img-flch-g{
+    padding-top: 250px;
+}
+.img-flch-d{
+    padding-top: 250px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.room{
+    border: 1px solid whitesmoke;
+    width: 200px;
+    height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    transition-duration: 1000ms;
+    margin: 5px;
+    z-index: 1;
+}
+
+.slide a{
+    width: 200px;
+    height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.rbatman{
+    background: url(../image/chambreBatman.jpg);
+    background-size: cover;
+}
+.rbarbie{
+    background: url(../image/chambreBarbie.jpg);
+    background-size: cover;
+}
+.rbulma{
+    background: url(../image/salleDuTemps.jpg);
+    background-size: cover;
+}
+.rHP{
+    background: url(../image/chambreHarryPotter2.jpg);
+    background-size: cover;
+}
+.rMJ{
+    background: url(../image/Neverland.jpg);
+    background-size: cover;
+}
+.rSonic{
+    background: url(../image/chambreSONIC.jpg);
+    background-size: cover;
+}

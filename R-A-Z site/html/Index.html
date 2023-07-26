@@ -4,10 +4,11 @@
 <head>
   <title>R-A-Z - Accueil</title>
   <link rel="stylesheet" type="text/css" href="../css/index.css">
+  <link rel="stylesheet" type="text/css" href="../css/carrousel.css">
 </head>
 
 <body>
-  <div class="container">
+
     <header class="topnav">
       <div>
         <a href="Index.html" ><img src="../image/Logo.png" alt="" class="logo"></a>
@@ -16,43 +17,52 @@
       </div>
 
       <div id="button-container">
-        <button id="button-login">
-          <a href="connexion.html" target="_blank">Connexion</a>
-        </button>
-        <button id="button-login1">
-          <a href="inscription.html" target="_blank">Inscription</a>
-        </button>
+        <a href="connexion.html" target="_blank">
+          <button id="button-login">
+            Connexion
+          </button></a>
+        <a href="inscription.html" target="_blank"><button id="button-login1">
+            Inscription
+          </button></a>
       </div>
     </header>
 
-  </div>
+    <main>
+      <div class="ensemble-fleche">
+        <img src="../image/chevron G.png" height="55" class="img-flch-g">
+        <div class="slide">
+          <a href="R BATMAN.html"><div class="room rbatman"></div></a>
+          <a href="R BARBIE.html"><div class="room rbarbie"></div></a>
+          <a href="R BULMA.html"><div class="room rbulma"></div></a>
+          <a href="R HarryPotter.html"><div class="room rHP"></div></a>
+          <a href="R MichaelJackson.html"><div class="room rMJ"></div></a>
+          <a href="R SONIC.html"><div class="room rSonic"></div></a>
+        </div>
+        <img src="../image/chevron D.png" height="55" class="img-flch-d">
 
-  <div id="main">
-  
-    <div id="slider">
-      <!-- Ajoutez ici votre carrousel avec les images -->
-      <a href="produit.html" target="_blank"><img class="slider-image active" src="../image/bat.jpg" alt="Chambre 1">
-      </a>
-      <a href="#" target="_blank"><img class="slider-image" src="../image/capsule.jpg" alt="Chambre 2"></a>
-      <a href="#" target="_blank"><img class="slider-image" src="../image/OIP.jpg" alt="Chambre 3"></a>
-      <div class="slider-arrow prev" onclick="changeSlide(-1); stopAutoSlide();">&#10094;</div>
-      <div class="slider-arrow next" onclick="changeSlide(1); stopAutoSlide();">&#10095;</div>
-    </div>
-  </div>
+      </div>
 
-  
+    </main>
 
 
-  <footer class="topnav">
-    <div class="navbar-brand">
+
+    <footer class="topnav" id="footer">
+
       <a type="align-text-top">FAQS</a>
       <a type="align-text-top">CGU</a>
       <a type="align-text-top">CONTACT</a>
       <a type="alt">RESEAUX</a>
       <a type="alt">A PROPOS</a>
+<<<<<<< HEAD
     <div id="footer">
      
   <script src="../java/index.js"></script>
+=======
+    </footer>
+
+
+    <script src="../java/index.js"></script>
+>>>>>>> ef4a8e001ada0aa7f0f1eba22b889be0beb0c12f
 </body>
 
 </html>

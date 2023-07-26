@@ -1,72 +1,32 @@
-var currentSlide = 0;
-var slides = document.getElementsByClassName('slider-image');
-var intervalId;
-
-function changeSlide(n) {
-  slides[currentSlide].classList.remove('active');
-  currentSlide = (currentSlide + n + slides.length) % slides.length;
-  slides[currentSlide].classList.add('active');
+var tab = document.querySelectorAll(".room");
+var fleche1 = document.querySelector(".img-flch-g");
+var fleche2 = document.querySelector(".img-flch-d");
+var slide = document.querySelector(".slide");
+var indice_element_active = 1;
+function augmenter(variable) {
+    variable.style = "z-carousel:2;transform:scale(1.2)";
 }
-
-// Fonction pour faire défiler automatiquement le carrousel
-function autoSlide() {
-  changeSlide(1);
+function diminuer(variable) {
+    variable.style = "z-carousel:1;transform:scale(1);";
 }
-
-// Démarre le défilement automatique toutes les 3 secondes
-function startAutoSlide() {
-  intervalId = setInterval(autoSlide, 4000);
+window.onload = () => {
+    augmenter(tab[indice_element_active]);
 }
+fleche1.onclick = () => {
+    if (indice_element_active != 1) {
+        diminuer(tab[indice_element_active]);
+        augmenter(tab[indice_element_active - 1]);
+        slide.scrollBy(-210, 0);
+        indice_element_active = indice_element_active - 1;
+    }
 
-// Arrête le défilement automatique
-function stopAutoSlide() {
-  clearInterval(intervalId);
-  // Redémarre le défilement automatique après 1 minute d'inactivité
-  setTimeout(startAutoSlide, 60000);
 }
+fleche2.onclick = () => {
+    if (indice_element_active != 9) {
+        diminuer(tab[indice_element_active]);
+        augmenter(tab[indice_element_active + 1]);
+        slide.scrollBy(210, 0);
+        indice_element_active = indice_element_active + 1;
+    }
 
-// Ajoute un gestionnaire d'événement click pour les flèches
-document.querySelector('.slider-arrow.prev').addEventListener('click', stopAutoSlide);
-document.querySelector('.slider-arrow.next').addEventListener('click', stopAutoSlide);
-
-function generateRandomPosition() {
-  var screenWidth = window.innerWidth;
-  var screenHeight = window.innerHeight;
-
-  var randomX = Math.floor(Math.random() * (screenWidth - 50));
-  var randomY = Math.floor(Math.random() * (screenHeight - 50));
-
-  return { x: randomX, y: randomY };
 }
-
-function moveCharacter(characterId) {
-  var character = document.getElementById(characterId);
-  var position = generateRandomPosition();
-
-  var containerWidth = document.querySelector('.container').offsetWidth;
-  var containerHeight = document.querySelector('.container').offsetHeight;
-
-  // Vérifier et ajuster les positions pour rester à l'intérieur du conteneur
-  if (position.x + 50 > containerWidth) {
-    position.x = containerWidth - 50;
-  }
-  if (position.y + 50 > containerHeight) {
-    position.y = containerHeight - 50;
-  }
-
-  character.style.left = position.x + 'px';
-  character.style.top = position.y + 'px';
-}
-
-setInterval(function() {
-  moveCharacter('character1');
-  moveCharacter('character2');
-  moveCharacter('character3');
-  moveCharacter('character4');
-  moveCharacter('character5');
-<<<<<<< HEAD
-}, 10000); // Déplace les personnages toutes les 2 secondes (ajustez selon vos besoins)
-=======
-}, 2000); // Déplace les personnages toutes les 2 secondes (ajustez selon vos besoins)
-
->>>>>>> b74585b38141aa4ebab77f4050a216d229ab42db

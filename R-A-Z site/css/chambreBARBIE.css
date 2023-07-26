@@ -26,27 +26,23 @@ header{
     flex-direction: row-reverse;
   }
   
-   main {
-    padding: 10px;
+  main {
+    /* padding: 10px; */
+    background-color: #335F8A;
+    padding: 70px;
   }
   
   #photo{
     opacity: 1;
-    padding-left: 50px;
   }
   
   body {
-    background-color: #C5C6C6;
     background-size: 100% 100%;
     font-family: 'VT323', monospace;
     font-size: 15px;
     font-weight: normal;
     font-style: normal ;
-    text-align: justify;
-    margin: 0px;
-    padding: 0px;
-    /* justify-content: space-between; */
-    justify-content: space-evenly;
+    /* margin: 50px; */
   }
     
   .flex{
@@ -55,36 +51,43 @@ header{
 
   td{
     text-align: center;
+    /* justify-content: space-evenly ; */
   }
   
-    
-  .formule{
-    padding: 20px;
-    /* margin: 20px; */
-  }
-  
-  
-  .options{
-    margin-bottom: 0px;
-    /* justify-content: space-around; */
-  }
 
   .margin-y-20{
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 1250px;
   }
   
   
   p{
-    background-color: #ffffff;
-    padding: 20px;
+    /* padding: 0px; */
+    /* margin: 10px; */
+    background-color: rgb(240, 240, 240);
   }
   
   
   footer{
-  background-color: #2E3244 ;
+  background-color: #2F4558 ;
   height: 100px;
   }
   
-  
-  
+  .card mb-3, .options, table {
+    /* justify-content: ; */
+    display: flex;
+    /* border-radius: 10px; */
+    /* justify-items: center; */
+    /* margin: 20px; */
+  }
+
+  #ken3, #champagne1{
+    /* margin: 10px ; */
+    padding: 20px ;
+  }
+ 
+  table{
+    border-collapse: unset !important;
+    border-spacing: 10px !important;
+  }
