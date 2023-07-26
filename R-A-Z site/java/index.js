@@ -4,7 +4,7 @@ var fleche2 = document.querySelector(".img-flch-d");
 var slide = document.querySelector(".slide");
 var indice_element_active = 1;
 function augmenter(variable) {
-    variable.style = "z-carousel:2;transform:scale(1.2);width:calc(2*100%)";
+    variable.style = "z-carousel:2;transform:scale(1.2)";
 }
 function diminuer(variable) {
     variable.style = "z-carousel:1;transform:scale(1);";
