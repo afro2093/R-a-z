@@ -185,7 +185,7 @@ main {
 }
 
 #footer a {
-  color: #F1895C;
+  color: #efa031;
   text-decoration: none;
   
 }
@@ -196,7 +196,7 @@ main {
     }
   }
   
-  
+  /* Media Query pour les téléphones en mode portrait */
   @media (max-width: 480px) {
     #main {
       height: calc(100vh - 120px);
